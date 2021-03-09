@@ -1,0 +1,58 @@
+.main__block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 350px;
+	padding: 10px 20px;
+	border: 2px solid #68daee;
+	border-radius: 5px;
+	background-color: #292c34;
+}
+
+.values {
+	border: 2px solid #68daee;
+	border-radius: 5px;
+	padding: 5px;
+	color: #68daee;
+	font-weight: 700;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.MaxAndMinValues {
+	display: flex;
+	justify-content: space-between;
+}
+.input {
+	display: inline-block;
+	max-width: 100px;
+}
+
+.div__buttons {
+	width: 100%;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid #68daee;
+	padding: 5px;
+}
+
+.div__buttons button {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #68daee;
+	font-weight: 700;
+	color: #292c34;
+}
+.div__buttons button:disabled {
+	color: black;
+	background-color: #406f7b;
+}
+
+.input_red_min {
+	border: 3px solid red;
+}
+.input_red_max {
+	border: 3px solid red;
+}
